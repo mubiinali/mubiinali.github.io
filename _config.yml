@@ -11,5 +11,15 @@ description: > # your text below (remove <br> elements if you don't need line br
 theme: jekyll-theme-minimal
 google_analytics: G-9T4M2C8M2P # your Google Analytics tracking ID here
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9T4M2C8M2P"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9T4M2C8M2P');
+</script>
+
 colors:
   crimson: '#900C3F'
